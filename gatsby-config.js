@@ -63,6 +63,11 @@ module.exports = {
         icon: `src/images/icon.png`,
       },
     },
-    
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "static-website-alpacked-6cdb7f8",
+      },
+     },
   ],
 }
